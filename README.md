@@ -18,9 +18,9 @@ A cycle-accurate CHIP-8 and SUPER-CHIP emulator written in C++20 using SDL2, sup
 
 CHIP-8 keypad mapped to keyboard:
 
-1 2 3 4      →   1 2 3 C
-Q W E R      →   4 5 6 D
-A S D F      →   7 8 9 E
+1 2 3 4      →   1 2 3 C  
+Q W E R      →   4 5 6 D  
+A S D F      →   7 8 9 E  
 Z X C V      →   A 0 B F
 
 
@@ -32,7 +32,8 @@ Z X C V      →   A 0 B F
 
 ## Bash
 
-make && ./chip8
+make  
+./chip8
 - Follow the in-terminal instructions
 - If you get: "Failed to open rom", try putting the ROM into the current folder and type only the name.
 
@@ -54,7 +55,7 @@ make && ./chip8
 
 Thank you to Tobias V. Langhoff for his guide on how to get started and to Timendus for the tests. 
 
-Link to guide: https://tobiasvl.github.io/blog/write-a-chip-8-emulator/#add-super-chip-support
+Link to guide: https://tobiasvl.github.io/blog/write-a-chip-8-emulator/#add-super-chip-support  
 Link to tests: https://github.com/Timendus/chip8-test-suite?tab=readme-ov-file
   
 
