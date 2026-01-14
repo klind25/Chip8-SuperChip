@@ -32,8 +32,7 @@ Z X C V      →   A 0 B F
 
 ## Bash
 
-make
-./chip8
+make && ./chip8
 - Follow the in-terminal instructions
 - If you get: "Failed to open rom", try putting the ROM into the current folder and type only the name.
 
